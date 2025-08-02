@@ -1,35 +1,67 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Legal solution</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@5"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      .font-eb-garamond {
+        font-family: "EB Garamond", serif;
+      }
+    </style>
+  </head>
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Legal solution</title>
-  <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
-  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap"
-    rel="stylesheet">
-  <style>
-    .font-eb-garamond {
-      font-family: "EB Garamond", serif;
-    }
-  </style>
-</head>
-
-<body class="font-eb-garamond">
-  <header class="contrainer  mx-auto">
-    <div class=" flex justify-around items-center ">
-      <div class=" ">
-        <div class="dropdown">
-          <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
-            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
-              stroke="currentColor">
-              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" />
-            </svg>
+  <body class="font-eb-garamond">
+    <header class="container mx-auto">
+      <div class="flex justify-around items-center">
+        <div class=" ">
+          <div class="dropdown">
+            <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="h-5 w-5"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M4 6h16M4 12h8m-8 6h16"
+                />
+              </svg>
+            </div>
+            <ul
+              tabindex="0"
+              class="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow"
+            >
+              <li><a>Home</a></li>
+              <li><a>Services</a></li>
+              <li><a>Cases</a></li>
+              <li><a>Blog</a></li>
+              <li><a>Contact Us</a></li>
+            </ul>
           </div>
-          <ul tabindex="0" class="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow">
+          <div class="flex items-center">
+            <img src="images/business.png" alt="" />
+            <a class="btn btn-ghost text-4xl">Justice</a>
+          </div>
+        </div>
+        <div class="navbar-center hidden lg:flex">
+          <ul class="menu menu-horizontal px-1 text-lg">
             <li><a>Home</a></li>
             <li><a>Services</a></li>
             <li><a>Cases</a></li>
@@ -37,41 +69,68 @@
             <li><a>Contact Us</a></li>
           </ul>
         </div>
-        <div class="flex items-center">
-          <img src="images/business.png" alt="">
-          <a class="btn btn-ghost text-4xl">Justice</a>
+        <div class="">
+          <a class="btn font-semibold text-white text-xl bg-[#B68C5A]"
+            >Free Consultation</a
+          >
         </div>
       </div>
-      <div class="navbar-center hidden lg:flex">
-        <ul class=" menu menu-horizontal px-1 text-lg">
-          <li><a>Home</a></li>
-          <li><a>Services</a></li>
-          <li><a>Cases</a></li>
-          <li><a>Blog</a></li>
-          <li><a>Contact Us</a></li>
-        </ul>
+      <!-- banner section  -->
+      <div class="my-16">
+        <div class="flex relative justify-center items-center">
+          <img src="images/banner.png" alt="" />
+        </div>
+        <div class="hero-overlay"></div>
+        <div class="hero-content text-neutral-content text-center">
+          <div class="max-w-md absolute lg:-mt-145 lg:ml-55">
+            <h1 class="mb-5 text-5xl font-bold">
+              We Provide Effective Legal Solutions
+            </h1>
+            <p class="mb-5">
+              There are many variations of passages of Lorem Ipsum available,
+              but the majority have suffered alteration in some form, by
+              injected humour.
+            </p>
+            <input type="text" placeholder="Type here" class="input" />
+            <button class="btn btn-primary">Get Started</button>
+          </div>
+        </div>
       </div>
-      <div class="">
-        <a class="btn font-semibold text-white text-xl bg-[#B68C5A]">Free Consultation</a>
-      </div>
-    </div>
-    <div class="hero min-h-screen"
-      style="background-image: url('/images/banner.png');">
-      <div class="hero-overlay"></div>
-      <div class="hero-content text-neutral-content text-center">
-        <div class="max-w-md">
-          <h1 class="mb-5 text-5xl font-bold">We Provide Effective Legal Solutions</h1>
-          <p class="mb-5">
-            There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.
+    </header>
+
+    <main class="container mx-auto">
+      <section>
+        <div class="text-center">
+          <h1 class="text-5xl font-bold">Box Office News!</h1>
+          <p class="py-6">
+            Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda
+            excepturi exercitationem quasi. In deleniti eaque aut repudiandae et
+            a id nisi.
           </p>
-          <input type="text" placeholder="Type here" class="input" />
-          <button class="btn btn-primary">Get Started</button>
         </div>
-      </div>
+      </section>
+    </main>
+    <div class="indicator">
+      <span class="indicator-item indicator-center indicator-middle text-red-800">
+        <div class="hero-content text-neutral-content ">
+          <div class="max-w-md ">
+            <h1 class="mb-5 text-5xl font-bold">
+              We Provide Effective Legal Solutions
+            </h1>
+            <p class="mb-5">
+              There are many variations of passages of Lorem Ipsum available,
+              but the majority have suffered alteration in some form, by
+              injected humour.
+            </p>
+            <input type="text" placeholder="Type here" class="input" />
+            <button class="btn btn-primary">Get Started</button>
+          </div>
+        </div>
+      </span>
+      <img class="text-red-600"
+        alt="Tailwind CSS examples"
+        src="images/banner.png"
+      />
     </div>
-
-  </header>
-
-</body>
-
+  </body>
 </html>
